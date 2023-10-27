@@ -1,0 +1,13 @@
+@import '../../styles/global.scss';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+    padding-right: 50px;
+  }
+}

@@ -1,0 +1,18 @@
+@import '../../styles/global.scss';
+
+.layout {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  &_left {
+    padding-left: 135px;
+    padding-top: 32px;
+    width: 68%;
+    background: var(--background-grey, #f5f9ff);
+  }
+  &_right {
+    padding-top: 32px;
+    width: 32%;
+    background: var(--gradient-purple, linear-gradient(45deg, #506ccf 0%, #3453c2 100%));
+  }
+}
